@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Word временные файлы
+~$*.docx
+
+# секреты
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# тяжёлый промежуточный результат — пересоздаётся ноутбуком
+data/processed/tracks_clean.csv
