@@ -58,7 +58,6 @@
 spotify_analysis/
 ├── notebook.ipynb     # основной ноутбук с анализом
 ├── requirements.txt   # зависимости
-├── .env.example       # шаблон ключей Spotify API
 ├── src/
 │   └── enrich.py      # асинхронное обогащение данных через API
 └── data/
@@ -74,9 +73,8 @@ pip install -r requirements.txt
 jupyter lab notebook.ipynb
 ```
 
-Обогащение через Spotify API требует ключей (`.env` по образцу
-`.env.example`). Без ключей оно автоматически использует MusicBrainz —
-открытую музыкальную базу, не требующую авторизации.
+Обогащение данных об артистах выполняется через открытый API MusicBrainz,
+не требующий авторизации.
 
 ## Стек
 
